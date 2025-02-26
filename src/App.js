@@ -10,7 +10,7 @@ function App() {
   });
 
  
-  const changeHandler = (event) => {
+  const changeHandler = (event) => { 
     const { name, value, checked, type } = event.target
     setFormData(prevData => {
       return {
