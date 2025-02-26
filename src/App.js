@@ -5,7 +5,7 @@ import './index.css'
 
 function App() {
   const [formData, setFormData] = useState({ 
-    firstName: "", lastName: "", email: "", street: "",   
+    firstName: "", lastName: "", email: "", street: "",    
     city: "", state: "", zip: "", comments: true, candidates: false, offers: false, offer: ""   
   });
  
