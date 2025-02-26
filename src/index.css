@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+  box-shadow: none;
+}
+.form1{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+gap: 1rem;
+
+
+}
+input[type="text"] {
+  width: 700px;
+  height: 30px;
+  border-radius: 0px 0px 20px 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.push{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+
+}
+
+.save{
+width: 70px;
+height: 50px;
+background-color: rgb(61, 112, 221);
+font-size:medium;
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+color: white;
 }
