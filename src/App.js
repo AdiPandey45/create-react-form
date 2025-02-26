@@ -9,7 +9,7 @@ function App() {
     city: "", state: "", zip: "", comments: true, candidates: false, offers: false, offer: ""   
   });
  
- 
+  
   const changeHandler = (event) => { 
     const { name, value, checked, type } = event.target
     setFormData(prevData => {
