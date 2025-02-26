@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from 'react';
-import './index.css'
+import './index.css' 
 
 function App() {
   const [formData, setFormData] = useState({
